@@ -1,8 +1,8 @@
 class Appsetter < Formula
   desc "View and set default apps for file types and URL schemes on macOS"
   homepage "https://github.com/SebAnton/appsetter"
-  url "https://github.com/SebAnton/appsetter/archive/refs/tags/v0.2.0.tar.gz"
-  sha256 "449965692964773863d903d80af3052b7c72c04d126c8cab7ddcd28b3ee4ef89"
+  url "https://github.com/SebAnton/appsetter/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "2677d3b3b2455d648fda36ebdca603c678f2281c116716492e02646dd1f4b9e4"
   license "MIT"
 
   depends_on xcode: ["15.0", :build]
