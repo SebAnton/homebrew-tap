@@ -1,18 +1,11 @@
-# Sebanton Tap
+# SebAnton's Homebrew tap
 
-## How do I install these formulae?
-
-`brew install sebanton/tap/<formula>`
-
-Or `brew tap sebanton/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "sebanton/tap"
-brew "<formula>"
+```sh
+brew install sebanton/tap/appsetter
 ```
 
-## Documentation
+| Formula | Description |
+|---|---|
+| [appsetter](https://github.com/SebAnton/appsetter) | View and set default apps for file types and URL schemes on macOS. JSON-first CLI built for AI agents. |
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+Formulae build from source and need Xcode.
