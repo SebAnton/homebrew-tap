@@ -1,0 +1,18 @@
+# Sebanton Tap
+
+## How do I install these formulae?
+
+`brew install sebanton/tap/<formula>`
+
+Or `brew tap sebanton/tap` and then `brew install <formula>`.
+
+Or, in a `brew bundle` `Brewfile`:
+
+```ruby
+tap "sebanton/tap"
+brew "<formula>"
+```
+
+## Documentation
+
+`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
